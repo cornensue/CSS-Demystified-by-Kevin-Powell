@@ -1,0 +1,17 @@
+- Layouts (Diseños) are all about relationships between elements.
+
+- BOX MODEL: Margin -> Border -> Padding -> Content
+        - Total width: margin + border + padding + content 
+        - border-box: 
+                - Total width: border + padding + content  (i) Sin incluir margin
+- Si queremos más heigth por algo, podemos usar min-heigth. Pero es mejor usa padding para eso.
+- Todo lo relacionado con la tipografía se hereda...
+-   lo relacionado con layout NO. 
+    - Todo lo relacionado con form no heredan la tipografía... salvo que le digamos que sí.
+            button,
+            input,
+            optgroup, 
+            select,
+            textarea {
+                font-family: inherit;
+            }
